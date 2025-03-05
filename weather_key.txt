@@ -1,0 +1,5 @@
+# nous avons exécuté la commande ci-dessous dans le terminal pour 
+# définir notre clé weather comme variable d'environnement
+
+export WEATHER="96b34ee39af67e2199f1212ecb3e6757"
+
