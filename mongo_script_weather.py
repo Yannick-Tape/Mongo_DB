@@ -1,6 +1,11 @@
 # Do not forget to create a variable in your console with the export command
 # You can choose the city of your choice, you only need to write the name in english
 
+# COMMANDE EXECUTER DANS LE TERMINAL AFIN DE CREER LA VARIABLE D'ENVIRONNEMENT
+# CECI DOIT ETRE FAIT AVANT DE LANCER CE SCRIPT CI DESSSOUS
+#    export WEATHER="96b34ee39af67e2199f1212ecb3e6757"
+
+
 # You will need to create a variable WEATHER with your key of OpenWeatherMap
 
 import os
@@ -110,6 +115,8 @@ for i in list(col.aggregate([{"$group": {"_id": "$weather.main", "nb": {"$sum": 
 
 
 
-
+# COMMANDE EXECUTER DANS LE TERMINAL AFIN DE CREER LA VARIABLE D'ENVIRONNEMENT
+# CECI DOIT ETRE FAIT AVANT DE LANCER CE SCRIPT CI DESSSUS
+#    export WEATHER="96b34ee39af67e2199f1212ecb3e6757"
 
 
